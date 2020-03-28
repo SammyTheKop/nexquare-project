@@ -25,10 +25,13 @@ const useStyles = makeStyles(theme => ({
     fontSize: "16px"
   },
   div: {
-    flexGrow: 1,
     display: "flex",
-    justifyContent: "end",
-    alignItems: "center"
+    flexGrow: "1",
+    alignItems: "center",
+    justifyContent: "flex-end"
+  },
+  name: {
+    margin: "inherit"
   }
 }));
 
@@ -58,7 +61,7 @@ export default function ButtonAppBar() {
               <NotificationsIcon />
             </IconButton>
             <Avatar path={samratImage} />
-            <p>Samrat Ghosh</p>
+            <p className={classes.name}>Samrat Ghosh</p>
             <IconButton
               edge="start"
               className={classes.menuButton}
