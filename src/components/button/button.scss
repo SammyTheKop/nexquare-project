@@ -1,0 +1,63 @@
+/* 
+* Styles for the Button Component
+*/
+.button {
+  background: #f50057;
+  box-shadow: 0 1px 0 #f50057;
+  border-radius: 4px;
+  color: white;
+}
+
+.button:hover {
+  background: #298fca;
+  border-color: #298fca #298fca #026aa7;
+}
+
+.button-text {
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+  margin-top: revert;
+}
+
+.button-disabled {
+  cursor: not-allowed;
+  background: gray;
+}
+
+.button-disabled:hover {
+  background-color: gray;
+  border-color: gray;
+}
+
+/* Keep adding the Styles of the Button Size Props below */
+.button-extra-small {
+  width: 50px;
+}
+
+.button-small {
+  width: 100px;
+}
+
+.button-medium {
+  width: 150px;
+}
+
+.button-large {
+  width: 200px;
+}
+
+.button-extra-large {
+  width: 250px;
+}
+
+.button-contents {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-gray {
+  background: silver;
+  box-shadow: 0 1px 0 silver;
+}

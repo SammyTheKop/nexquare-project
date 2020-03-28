@@ -1,0 +1,53 @@
+.home-contents {
+  display: flex;
+
+  &-left-menu {
+    width: 20%;
+    display: flex;
+
+    &-icons {
+      width: 20%;
+      border-right: 1px solid gray;
+      padding-top: 24px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      &-container {
+        margin-bottom: 16px;
+      }
+    }
+
+    &-names {
+      width: 80%;
+      padding-top: 24px;
+
+      &-first {
+        border-bottom: 1px solid gray;
+        padding-left: 10px;
+        font-weight: 700;
+      }
+
+      &-remaining {
+        padding-left: 10px;
+      }
+
+      &-last {
+        padding-left: 10px;
+        font-size: 16px;
+        color: lightgray;
+      }
+    }
+  }
+
+  &-right-menu {
+    width: 80%;
+    padding: 20px 40px;
+    background-color: #f0efef;
+  }
+
+  .home-contents-left-menu-names-remaining.Component.Configuration {
+    background-color: #ffefc6;
+    font-weight: 700;
+  }
+}
